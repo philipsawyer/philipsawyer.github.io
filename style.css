@@ -24,13 +24,6 @@ strong
 	font-weight: bold;
 }
 
-figcaption
-{
-	line-height: 25px;
-	font-size: 14px;
-	width: 200px;
-}
-
 figcaption strong
 {
 	border-bottom: 1px solid #D6D0C1;
@@ -38,6 +31,23 @@ figcaption strong
 	margin: 10px 0;
 	display: block;
 }
+
+
+figcaption
+{
+	line-height: 25px;
+	font-size: 14px;
+	width: 425px;
+}
+
+hr 
+{
+	background-color: #D6D0C1;
+	border: 0;
+	height: 1px;
+	margin: 20px 0;
+}
+
 
 header
 {
@@ -63,6 +73,12 @@ header p
 	margin-left: 132px;
 }
 
+nav
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
 
 nav ul
 {
@@ -88,13 +104,6 @@ nav ul li a:hover
 	color: #E56038;
 }
 
-
-#slider_content1
-{
-	line-height: 25px;
-	font-family: 
-}
-
 .container
 {
 	width: auto;
@@ -106,6 +115,7 @@ nav ul li a:hover
 {
 	line-height: 25px;
 	font-family: 'Open Sans', sans-serif;
+	clear: both;
 	width: auto;
 	max-width: 900px;
 	margin: 0 auto;
@@ -123,6 +133,7 @@ nav ul li a:hover
 {
 	float: left;
 	margin-right: 25px;
+	margin-bottom: 20px;
 }
 
 #two_columns .img-item a 
@@ -136,7 +147,7 @@ footer
 	position: relative;
 	clear: both;
 	width: auto;
-	height: 0px;
+	height: 50px;
 	background: #333333;
 }
 
@@ -153,7 +164,7 @@ footer .wrapper
 #copyright
 {
 	background: #1D1D1D;
-	height: 70px;
+	height: 50px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -183,6 +194,21 @@ footer .wrapper
 	margin-left: 12px;
 	display: block;
 	float:left;
+}
+
+#copyright .wrapper .social a:hover
+{
+	opacity: 0.7;
+}
+
+#copyright .wrapper a
+{
+	color: #ABABAB;
+}
+
+#copyright .wrapper a:hover
+{
+	color: #fff;
 }
 
 .clear
