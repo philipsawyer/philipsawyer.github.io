@@ -7,75 +7,98 @@
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
 
+		<script src="modernizr.min.js"></script>
+        <script src="respond.min.js"></script>
+        
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min"><\/script>')</script>
+        
+        <script src="lightbox.js"></script>
+        <script src="prefixfree.min.js"></script>
+        <script src="jquery.slides.min.js"></script>
+        <script src="script.js"></script>
+
+
  		<title>philiphsawyer</title>
 	</head>
 
-	<header>
-		<h1>Philip Sawyer</h1>
-		<p>iOS Developer</p>
+	<body>
+		<header>
+			<h1>Philip Sawyer</h1>
+			<p>Apple iOS Developer</p>
 
-		<nav>
-			<ul>
-				<li><a href="javascript:void(0)">Home</a></li>
-				<li><a href="javascript:void(0)">About</a></li>
-				<li><a href="javascript:void(0)">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section class="container">
-		<div id="slides">
-			<img src="testImage.jpg" alt="Some alt text">
-		</div>
-	</section>
-	<section id="two_columns">
-		<h2>
-			Work
-		</h2>
-		<article class="img-item">
-			<figure>
-				<a href="img/example-slide-1.jpg" title="Fusion.">
-					<span class="thumb-screen"></span>
-					<img src="img/example-slide-1sml.jpg" alt="Fusion."/>
-				</a>
-				<figcaption>
-					<strong>
-						Fusion.
-					</strong>
-					Fusion is a new iPhone app that lets you combine and view three of your most favorite social networks: Facebook, Twitter and Instagram
-				</figcaption>
-			</figure>
-		</article>
-		<article class="img-item">
-			<figure>
-				<a href="img/example-slide-1.jpg" title="Attendance!">
-					<span class="thumb-screen"></span>
-					<img src="img/example-slide-1sml.jpg" alt="Attendance!"/>
-				</a>
-				<figcaption>
-					<strong>
-						Attendance!
-					</strong>
-					Attendance is a simple but powerful way to stay on top of who's present and who's been skipping out.
-				</figcaption>
-			</figure>
-		</article>
-	</section>
+			<nav>
+				<h2 class="hidden">Our navigation</h2>
+				<ul>
+					<li><a href="javascript:void(0)">Home</a></li>
+					<li><a href="javascript:void(0)">About</a></li>
+					<li><a href="javascript:void(0)">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<footer>
-		<h2 class="hidden">Our footer</h2>
-			<section id="copyright">
-				<h3 class="hidden">Copyright Notice</h3>
-				<div class="wrapper">
-					<div class="social">
-						<a href="javascript:void(0)"><img src="img/Social-Networks-Google-plus-icon.png" alt="google plus" width="25"/></a>
-						<a href="javascript:void(0)"><img src="img/Logos-Tumblr-icon.png" alt="tumblr" width="25"/></a>
-						<a href="javascript:void(0)"><img src="img/Logos-Youtube-icon.png" alt="youtube" width="25"/></a>
-						<a href="javascript:void(0)"><img src="img/Social-Networks-Bebo-icon.png" alt="bebo" width="25"/></a>
-						<a href="javascript:void(0)"><img src="img/Social-Networks-Xing-icon.png" alt="xing" width="25"/></a>
+
+		<section class="container">
+			<h2 class="hidden">Lorem Ipsum</h2>
+			<div id="slides">
+				<img src="testImage.jpg" alt="Some alt text">
+			</div>
+		</section>
+
+
+		<section id="two_columns">
+			<h2>
+				Work
+			</h2>
+			<article class="img-item">
+				<h3 class="hidden">Dolor sit amet</h3>
+				<figure>
+					<a href="img/example-slide-1.jpg" title="Fusion.">
+						<span class="thumb-screen"></span>
+						<img src="img/example-slide-1sml.jpg" alt="Fusion."/>
+					</a>
+					<figcaption>
+						<strong>
+							Fusion.
+						</strong>
+						Fusion is a new iPhone app that lets you combine and view three of your most favorite social networks: Facebook, Twitter and Instagram
+					</figcaption>
+				</figure>
+			</article>
+			<article class="img-item">
+				<h3 class="hidden">Sit Amet</h3>
+				<figure>
+					<a href="img/example-slide-1.jpg" title="Attendance!">
+						<span class="thumb-screen"></span>
+						<img src="img/example-slide-1sml.jpg" alt="Attendance!"/>
+					</a>
+					<figcaption>
+						<strong>
+							Attendance!
+						</strong>
+						Attendance is a simple but powerful way to stay on top of who's present and who's been skipping out.
+					</figcaption>
+				</figure>
+			</article>
+			<br class="clear"/>
+		</section>
+
+		<footer>
+			<h2 class="hidden">Our footer</h2>
+				<section id="copyright">
+					<h3 class="hidden">Copyright Notice</h3>
+					<div class="wrapper">
+						<div class="social">
+							<a href="javascript:void(0)"><img src="img/Social-Networks-Google-plus-icon.png" alt="google plus" width="25"/></a>
+							<a href="javascript:void(0)"><img src="img/Logos-Tumblr-icon.png" alt="tumblr" width="25"/></a>
+							<a href="javascript:void(0)"><img src="img/Logos-Youtube-icon.png" alt="youtube" width="25"/></a>
+							<a href="javascript:void(0)"><img src="img/Social-Networks-Bebo-icon.png" alt="bebo" width="25"/></a>
+							<a href="javascript:void(0)"><img src="img/Social-Networks-Xing-icon.png" alt="xing" width="25"/></a>
+						</div>
+						&copy; Copyright 2015 by Philip Sawyer. All Rights Reserved.
 					</div>
-					&copy; Copyright 2015 by Philip Sawyer. All Rights Reserved.
-				</div>
-			</section>
-		</h2>
-	</footer>
+				</section>
+		</footer>
+	<body>
 </html>
