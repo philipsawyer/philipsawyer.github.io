@@ -37,7 +37,7 @@ figcaption
 {
 	line-height: 25px;
 	font-size: 14px;
-	width: 425px;
+	width: 470px;
 }
 
 hr 
@@ -104,11 +104,17 @@ nav ul li a:hover
 	color: #E56038;
 }
 
-.container
+#banner_image
 {
 	width: auto;
 	margin: 0 auto;
 	position: relative;
+}
+
+#banner_image img 
+{
+	max-width: 100%;
+	height: auto;
 }
 
 #two_columns
@@ -117,7 +123,7 @@ nav ul li a:hover
 	font-family: 'Open Sans', sans-serif;
 	clear: both;
 	width: auto;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
