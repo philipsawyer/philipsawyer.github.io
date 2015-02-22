@@ -1,7 +1,7 @@
 body
 {
 	border-top: 5px solid #e56038;
-	background: #ebe8de;
+	background: white;
 	font-family: 'Open Sans', sans-serif;
 	color: #333333;
 }
@@ -117,6 +117,27 @@ nav ul li a:hover
 	height: auto;
 }
 
+
+#about_me
+{
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	clear: both;
+	width: auto;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#about_me h2
+{
+	font-size: 20px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+
+
 #two_columns
 {
 	line-height: 25px;
@@ -146,6 +167,25 @@ nav ul li a:hover
 {
 	position: relative;
 	display: block;
+}
+
+
+#contact
+{
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	clear: both;
+	width: auto;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#contact h2
+{
+	font-size: 20px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0;
+	margin-bottom: 20px;
 }
 
 footer
@@ -228,3 +268,14 @@ footer .wrapper
 	clip: rect(1px 1px 1px 1px);
 	clip: rect(1px, 1px, 1px, 1px);
 }
+
+
+/*@media (max-width: 915px)
+{
+	#two_columns
+	{
+		width: 600px;
+	}
+
+
+} */
