@@ -1,7 +1,7 @@
 body
 {
-	border-top: 5px solid #e56038;
-	background: white;
+	border-top: 5px solid #3498db;
+	background: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	color: #333333;
 }
@@ -61,7 +61,7 @@ header h1
 {
 	margin: 35px 0 0 0;
 	font-size: 55px;
-	color: #e56038;
+	color: #3498db;
 	font-family: 'Baumans', cursive;
 }
 
