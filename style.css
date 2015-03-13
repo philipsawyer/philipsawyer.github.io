@@ -136,6 +136,17 @@ nav ul li a:hover
 	margin-bottom: 20px;
 }
 
+#about_me img
+{
+	float: left;
+}
+
+#about_me p
+{
+	float: right;
+	width: 519px;
+	margin-left: 10px;
+}
 
 
 #two_columns
