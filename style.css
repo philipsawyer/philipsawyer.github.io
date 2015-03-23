@@ -297,7 +297,7 @@ footer .wrapper
 }
 
 
-@media (max-width: 915px)
+@media (max-width: 1005px)
 {
 	#about_me 
 	{
@@ -306,10 +306,25 @@ footer .wrapper
 
 	#about_me p
 	{
+		width: auto;
 		float: left;
+		margin-top: 10px;
+		text-align: justify;
+		margin-left: 0px;
+	}
+
+	#about_me img
+	{
+		width: 500px;
 	}
 
 	#two_columns
+	{
+		width: 500px;
+	}
+
+
+	#two_columns a img
 	{
 		width: 500px;
 	}
@@ -319,9 +334,76 @@ footer .wrapper
 		margin-top: 25px;
 	}
 
+	figcaption
+	{
+		width: 500px;
+		text-align: justify;
+	}
+
+
+	#contact
+	{
+		width: 500px;
+	}
+
+	#contact p
+	{
+		text-align: justify;
+	}
 }
 
-@media (max-width: 765px)
+@media (max-width: 500px)
 {
+	#about_me 
+	{
+		width: 300px;
+	}
 
+	#about_me p
+	{
+		width: auto;
+		float: left;
+		margin-top: 10px;
+		text-align: justify;
+		margin-left: 0px;
+	}
+
+	#about_me img
+	{
+		width: 300px;
+	}
+
+
+	#two_columns
+	{
+		width: 300px;
+	}
+
+
+	#two_columns a img
+	{
+		width: 300px;
+	}
+
+	#two_columns .img-item:nth-of-type(1), #four_columns .img-item:nth-of-type(2)
+	{
+		margin-top: 25px;
+	}
+
+	figcaption
+	{
+		width: 300px;
+		text-align: justify;
+	}
+
+
+	#contact
+	{
+		width: 300px;
+	}
+
+	#contact p
+	{
+		text-align: justify;
+	}
 }
