@@ -239,6 +239,7 @@ nav ul li a:hover
 	width: 450px;
 	max-width: 450px;
 	height: 150px;
+	resize:none;
 }
 
 #contact .submit_button input
