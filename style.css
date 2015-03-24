@@ -1,6 +1,9 @@
 body
 {
-	border-top: 5px solid #11A7F2;
+	border-top: 15px solid #F9F9F9;
+	border-left: 125px solid #F9F9F9;
+	border-bottom: 15px solid #F9F9F9;
+	border-right: 125px solid #F9F9F9;
 	background: #FFFFFF;
 	font-family: 'Helvetica Neue', sans-serif;
 	color: #333333;
