@@ -5,7 +5,7 @@ body
 	border-bottom: 15px solid #F9F9F9;
 	border-right: 125px solid #F9F9F9;
 	background: #FFFFFF;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;	
 	color: #333333;
 }
 
@@ -66,12 +66,12 @@ header h1
 	margin: 35px 0 0 0;
 	font-size: 55px;
 	color: #11A7F2;
-	font-family: 'Open Sans', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 header p
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	color: #4A463B;
 	/*margin-left: 180px; */
@@ -99,7 +99,7 @@ nav ul li
 
 nav ul li a 
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;	
 	text-transform: uppercase;
 	transition:all .25s ease;
 }
@@ -126,7 +126,7 @@ nav ul li a:hover
 #about_me
 {
 	line-height: 25px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	clear: both;
 	width: auto;
 	max-width: 1000px;
@@ -160,7 +160,7 @@ nav ul li a:hover
 #two_columns
 {
 	line-height: 25px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	clear: both;
 	width: auto;
 	max-width: 1000px;
@@ -195,7 +195,7 @@ nav ul li a:hover
 #contact
 {
 	line-height: 25px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	clear: both;
 	width: auto;
 	max-width: 1000px;
@@ -280,7 +280,7 @@ footer .wrapper
 
 #copyright .wrapper
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	padding-top: 25px;
 	color: #5e5e5e;
 	font-size: 14px;
