@@ -302,8 +302,16 @@ footer .wrapper
 }
 
 
-@media (max-width: 1005px)
+@media (max-width: 1250px)
 {
+	body
+	{
+		border-top: 15px solid #F9F9F9;
+		border-left: 50px solid #F9F9F9;
+		border-bottom: 15px solid #F9F9F9;
+		border-right: 50px solid #F9F9F9;
+	}
+
 	#about_me 
 	{
 		width: 500px;
