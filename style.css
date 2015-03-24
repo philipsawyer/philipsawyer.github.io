@@ -379,6 +379,17 @@ footer .wrapper
 		border-right: 30px solid #F9F9F9;
 	}
 }*/
+
+@media (max-width: 600px)
+{
+	body
+	{
+		border-top: 0px;
+		border-left: 0px;
+		border-bottom: 0px;
+		border-right: 0px;
+	}
+
 	#about_me 
 	{
 		width: 300px;
