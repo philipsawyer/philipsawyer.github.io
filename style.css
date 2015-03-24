@@ -363,6 +363,10 @@ footer .wrapper
 	{
 		text-align: justify;
 	}
+	#contact .contact_form
+	{
+		margin-left: 0px;
+	}
 }
 
 @media (max-width: 500px)
