@@ -161,6 +161,10 @@ header p
 	display: block;
 }
 
+#two_columns .img-item a img
+{
+	max-width: 470px;
+}
 
 #contact
 {
