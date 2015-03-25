@@ -78,37 +78,6 @@ header p
 	text-align: center;
 }
 
-nav
-{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}
-
-nav ul
-{
-	list-style: none;
-}
-
-nav ul li 
-{
-	display: block;
-	float: left;
-	padding: 3px 15px;
-}
-
-nav ul li a 
-{
-	font-family: 'Roboto Condensed', sans-serif;	
-	text-transform: uppercase;
-	transition:all .25s ease;
-}
-
-nav ul li a:hover
-{
-	color: #E56038;
-}
-
 #banner_image
 {
 	width: auto;
