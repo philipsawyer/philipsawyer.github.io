@@ -80,6 +80,7 @@ header p
 
 #banner_image
 {
+	position: relative;
 	width: auto;
 	margin: 0 auto;
 }
