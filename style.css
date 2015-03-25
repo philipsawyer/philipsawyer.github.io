@@ -116,6 +116,7 @@ header p
 #about_me img
 {
 	float: left;
+	max-width: 470px;
 }
 
 #about_me p
