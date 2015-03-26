@@ -218,6 +218,11 @@ span.text-content span {
 	text-decoration: underline;
 }
 
+#contact #text
+{
+	text-align: center;
+}
+
 
 #contact .contact_form
 {
