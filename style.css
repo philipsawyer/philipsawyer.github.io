@@ -159,6 +159,32 @@ header p
 	max-width: 470px;
 }
 
+  color: white;
+  display: table;
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 470px;
+  opacity: 0;
+  font-size: 36px;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-content:hover
+{
+	opacity: 1;
+}
+
 #contact
 {
 	line-height: 25px;
