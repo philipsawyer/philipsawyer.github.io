@@ -158,6 +158,11 @@ header p
 	max-width: 470px;
 }
 
+#two_columns .img-item a:hover
+{
+	color: #7f8c8d;
+}
+
 
 span.text-content {
   background: rgba(0,0,0,0.5);
