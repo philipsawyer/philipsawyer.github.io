@@ -331,7 +331,12 @@ footer .wrapper
 
 	#two_columns a img
 	{
-		width: 500px;
+		width: 470px;
+	}
+
+	span.text-content
+	{
+		width: 470px;
 	}
 
 	#two_columns .img-item:nth-of-type(1), #four_columns .img-item:nth-of-type(2)
@@ -400,6 +405,12 @@ footer .wrapper
 	#two_columns a img
 	{
 		width: 300px;
+	}
+
+	span.text-content
+	{
+		width: 300px;
+		height: 199px;
 	}
 
 	#two_columns .img-item:nth-of-type(1), #four_columns .img-item:nth-of-type(2)
