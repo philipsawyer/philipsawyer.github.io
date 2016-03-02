@@ -1,0 +1,21 @@
+body {
+    background: url("../images/escalators.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nametitle {
+    margin-top: 25%;
+}
+
+.nametitle .name {
+    color:white;
+    text-align:center;
+}
+
+.personaldescription .description {
+    color:white;
+    text-align:center;
+}
