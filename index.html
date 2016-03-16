@@ -1,15 +1,14 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>philiphsawyer - develop</title>
+		<meta charset="utf-8" />
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>philiphsawyer - develop</title>
+	    <link rel="stylesheet" href="css/foundation.css" />
 
-		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="css/style.css" />
 
-		<!-- This is how you would link your custom stylesheet -->
-	  	<link rel="stylesheet" href="css/style.css">
-
- 		<!-- <script>
+		<!-- <script>
   			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -21,40 +20,39 @@
 		</script> -->
 	</head>
 
-	<body>
-		<div class="row">
-			<div class="large-12 columns">
-				<div class="sticky fixed">
-					  <nav class="top-bar" data-topbar role="navigation">
-					    <section class="top-bar-section">
-							<ul class="right">
-								<li>
-									<a href="#">About Me</a>
-								</li>
-								<li>
-									<a href="#">Apps</a>
-								</li>
-								<li>
-									<a href="#">Open Source</a>
-								</li>
-								<li>
-									<a href="#">Contact</a>
-								</li>
-							</ul>
-						</section>
-					  </nav>
-				</div>
-			</div>
+	<body class="welcome-page">
+		<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+		  <button class="menu-icon" type="button" data-toggle></button>
+		  <div class="title-bar-title">Menu</div>
 		</div>
 
+		<div class="top-bar" id="example-menu">
+		  <div class="top-bar-right">
+		    <ul class="dropdown menu" data-dropdown-menu>
+		      <li><a href="./aboutme.html">About Me</a></li>
+		      <li><a href="./apps.html">Apps</a></li>
+		      <li><a href="./opensource.html">Open Source</a></li>
+			  <li><a href="./contact.html">Contact</a></li>
+		    </ul>
+		  </div>
+	  	</div>
 
 		<div class="row">
 			<div class="large-12 columns nametitle">
 				<h1 class="name">Philip Sawyer</h1>
 			</div>
-			<div class="large-12 columns personaldescription">
-				<h4 class="description">A college student who is passionate about mobile development and everything tech.</h4>
-			</div>
 		</div>
+		<div class="large-12 columns personaldescription">
+			<h4 class="description">A college student who is passionate about mobile development and everything tech.</h4>
+		</div>
+
+
+
+		<script src="js/vendor/jquery.min.js"></script>
+	    <script src="js/vendor/what-input.min.js"></script>
+	    <script src="js/foundation.min.js"></script>
+	    <script src="js/app.js"></script>
+
 	</body>
+
 </html>
