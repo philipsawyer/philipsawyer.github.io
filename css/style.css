@@ -19,3 +19,23 @@
     color:white;
     text-align:center;
 }
+
+.top-bar, .top-bar ul {
+    background: transparent;
+}
+
+.welcome-page .top-bar a {
+    color: white;
+}
+
+.top-bar a {
+    color: black;
+}
+
+.top-bar-right {
+     padding-top: 25px;
+}
+
+.menu-text {
+    font-size: 50px;
+}

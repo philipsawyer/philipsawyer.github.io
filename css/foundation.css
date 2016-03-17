@@ -1261,12 +1261,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: white;
+  color: #2199e8;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: white; }
+    color: #1585cf; }
   a img {
     border: 0; }
 
@@ -3403,7 +3403,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: transparent; }
+    background-color: #e6e6e6; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
