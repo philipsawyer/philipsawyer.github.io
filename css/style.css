@@ -31,10 +31,15 @@
 }
 
 .top-bar, .top-bar ul {
-    background: transparent;
+    background: #1c1c1c;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
+    padding-top: 6px;
+}
+
+.indexTopBar, .indexTopBar ul {
+    background: transparent;
 }
 
 .welcome-page .top-bar a {
@@ -57,15 +62,22 @@
 #about-menu h4, #contact-menu h4  {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    color: white;
+}
+
+#about-menu li a, #contact-menu li a {
+    color: white;
+    background-color: #1c1c1c;
 }
 
 #about-menu li a:hover, #contact-menu li a:hover {
-    color: white;
-    background-color: #2c3e50;
+    color: #1c1c1c;
+    background-color: white;
 }
 
 .profilePicture {
     text-align: center;
+    padding-top: 50px;
 }
 
 .personalDescription {
@@ -75,8 +87,30 @@
 
 #hello {
     font-weight: 700;
+    margin-top: 22px;
 }
 #description {
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 2.05;
+}
+
+.button.expanded {
+    background-color: #2c3e50;
+}
+
+.contactText {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.thanksText {
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.siteTitleName {
+    padding-left: 6px;
 }
