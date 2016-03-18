@@ -9,24 +9,47 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
     <body>
-        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
+		<div class="title-bar" data-responsive-toggle="contact-menu" data-hide-for="large">
           <button class="menu-icon" type="button" data-toggle></button>
           <div class="title-bar-title">Menu</div>
         </div>
 
-        <div class="top-bar" id="example-menu">
-          <div class="top-bar-right">
-            <ul class="dropdown menu" data-dropdown-menu>
-			  <li><a href="./index.html">Home</a></li>
-              <li><a href="./aboutme.html">About Me</a></li>
-              <li><a href="./apps.html">Apps</a></li>
-              <li><a href="./opensource.html">Open Source</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-            </ul>
-          </div>
+        <div class="top-bar" id="contact-menu">
+			<div class="top-bar-left">
+			    <ul class="dropdown menu" data-dropdown-menu>
+			      <li><h4>PHILIP SAWYER</h4></li>
+			    </ul>
+			</div>
+        	<div class="top-bar-right">
+        		<ul class="dropdown menu" data-dropdown-menu>
+					<li><a href="./index.html">Home</a></li>
+	              	<li><a href="./aboutme.html">About Me</a></li>
+		            <li><a href="./apps.html">Apps</a></li>
+		            <li><a href="./opensource.html">Open Source</a></li>
+		            <li><a href="./contact.html">Contact</a></li>
+            	</ul>
+          	</div>
         </div>
 
-        <h1>contact</h1>
+    	<div class="row">
+			<div class="large-8 large-centered small-12 columns">
+				<fieldset class="fieldset">
+					<form class="formtest" action="//formspree.io/philiphsawyer@gmail.com" method="POST">
+						<label>Name
+							<input type="text" name="name" placeholder="Name" id="name">
+						</label>
+						<label>Email
+					    	<input type="email" placeholder="Email" name="_replyto">
+						</label>
+						<label>Message
+							<textarea name="text" placeholder="Enter your message here"></textarea>
+						</label>
+						<input class="button expanded" type="submit" value="Send">
+						<input type="hidden" name="_next" value="http://www.philiphsawyer.com" />
+					</form>
+				</fieldset>
+			</div>
+		</div>
 
         <script src="js/vendor/jquery.min.js"></script>
 	    <script src="js/vendor/what-input.min.js"></script>

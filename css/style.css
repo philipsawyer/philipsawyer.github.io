@@ -54,12 +54,12 @@
     background-color: #2c3e50;
 }
 
-#about-menu h4 {
+#about-menu h4, #contact-menu h4  {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-#about-menu li a:hover {
+#about-menu li a:hover, #contact-menu li a:hover {
     color: white;
     background-color: #2c3e50;
 }
