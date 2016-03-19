@@ -1,0 +1,150 @@
+.welcome-page {
+    background: url("../images/background.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nametitle {
+    margin-top: 20%;
+}
+
+.nametitle .name {
+    color:white;
+    text-align:center;
+}
+
+.personalBlurb .description {
+    color:white;
+    text-align:center;
+}
+
+.nametitle h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.personalBlurb h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.top-bar, .top-bar ul {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.indexTopBar, .indexTopBar ul {
+    background: transparent;
+}
+
+.welcome-page .top-bar a {
+    color: white;
+}
+
+.top-bar a {
+    color: black;
+}
+
+.indexPage.top-bar-right {
+     padding-right: 1.25em;
+}
+
+#index-menu li a:hover{
+    background-color: #2c3e50;
+}
+
+#about-menu h4, #contact-menu h4, #apps-menu h4, #open-menu h4  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#about-menu li a, #contact-menu li a, #apps-menu li a, #open-menu li a {
+    color: white;
+    background-color: black;
+}
+
+#about-menu li a:hover, #contact-menu li a:hover, #apps-menu li a:hover, #open-menu li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.profilePicture {
+    text-align: center;
+    padding-top: 3.0em;
+}
+
+.personalDescription {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#hello {
+    font-weight: 700;
+    margin-top: 1.2em;
+}
+#description {
+    font-weight: 400;
+    line-height: 2.05;
+}
+
+.button.expanded {
+    background-color: #2c3e50;
+}
+
+.contactText {
+    padding-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.thanksText {
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.siteTitleName {
+    padding-left: 0.5em;
+}
+
+.appsRow {
+    padding-top: 2em;
+}
+
+.appsRow h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.appsRow h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.appsRow a {
+    color: black;
+}
+
+.appsRow a:hover {
+    color: #636363;
+}
+
+.openRow {
+    padding-top: 2em;
+}
+
+.openRow a {
+    color: black;
+}
+
+.openRow a:hover {
+    color: #636363;
+}
