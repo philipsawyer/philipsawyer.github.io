@@ -147,4 +147,17 @@
 
 .openRow a:hover {
     color: #636363;
+    font-size:
 }
+
+.linkedinLink {
+    color: #2c3e50;
+}
+
+ .resumeLink {
+     color: #2c3e50;
+ }
+
+ .githubLink {
+     color: #2c3e50;
+ }
