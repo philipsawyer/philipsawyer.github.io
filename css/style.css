@@ -150,6 +150,10 @@
     font-size:
 }
 
+.contactRow {
+    padding-top: 1.2em;
+}
+
 .linkedinLink {
     color: #2c3e50;
 }
