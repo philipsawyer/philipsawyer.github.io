@@ -1,0 +1,16 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #1e1e1e;
+    background-color: #dfe6e9;
+}
+
+a {
+    color: #3498db;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #dfe6e9;
+        background-color: #1e1e1e;
+    }
+}
