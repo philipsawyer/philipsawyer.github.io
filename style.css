@@ -1,7 +1,7 @@
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #1e1e1e;
-    background-color: #dfe6e9;
+    background-color: #fafafa;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #dfe6e9;
+        color: #fafafa;
         background-color: #1e1e1e;
     }
 }
